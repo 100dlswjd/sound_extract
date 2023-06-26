@@ -19,12 +19,12 @@ from PySide6.QtWidgets import (QApplication, QHBoxLayout, QLabel, QLineEdit,
     QPushButton, QSizePolicy, QSpacerItem, QVBoxLayout,
     QWidget)
 
-class Ui_Form(object):
-    def setupUi(self, Form):
-        if not Form.objectName():
-            Form.setObjectName(u"Form")
-        Form.resize(239, 100)
-        self.horizontalLayout_3 = QHBoxLayout(Form)
+class Ui_Sound_extract(object):
+    def setupUi(self, Sound_extract):
+        if not Sound_extract.objectName():
+            Sound_extract.setObjectName(u"Sound_extract")
+        Sound_extract.resize(239, 100)
+        self.horizontalLayout_3 = QHBoxLayout(Sound_extract)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.verticalLayout = QVBoxLayout()
         self.verticalLayout.setObjectName(u"verticalLayout")
@@ -32,18 +32,18 @@ class Ui_Form(object):
         self.horizontalLayout = QHBoxLayout()
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.horizontalLayout.setContentsMargins(4, 4, 4, 4)
-        self.label_save_path = QLabel(Form)
+        self.label_save_path = QLabel(Sound_extract)
         self.label_save_path.setObjectName(u"label_save_path")
 
         self.horizontalLayout.addWidget(self.label_save_path)
 
-        self.lineEdit_save_path = QLineEdit(Form)
+        self.lineEdit_save_path = QLineEdit(Sound_extract)
         self.lineEdit_save_path.setObjectName(u"lineEdit_save_path")
         self.lineEdit_save_path.setEnabled(False)
 
         self.horizontalLayout.addWidget(self.lineEdit_save_path)
 
-        self.pushButton_save_path_select = QPushButton(Form)
+        self.pushButton_save_path_select = QPushButton(Sound_extract)
         self.pushButton_save_path_select.setObjectName(u"pushButton_save_path_select")
 
         self.horizontalLayout.addWidget(self.pushButton_save_path_select)
@@ -58,7 +58,7 @@ class Ui_Form(object):
 
         self.horizontalLayout_2.addItem(self.horizontalSpacer)
 
-        self.pushButton = QPushButton(Form)
+        self.pushButton = QPushButton(Sound_extract)
         self.pushButton.setObjectName(u"pushButton")
 
         self.horizontalLayout_2.addWidget(self.pushButton)
@@ -74,15 +74,15 @@ class Ui_Form(object):
         self.horizontalLayout_3.addLayout(self.verticalLayout)
 
 
-        self.retranslateUi(Form)
+        self.retranslateUi(Sound_extract)
 
-        QMetaObject.connectSlotsByName(Form)
+        QMetaObject.connectSlotsByName(Sound_extract)
     # setupUi
 
-    def retranslateUi(self, Form):
-        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
-        self.label_save_path.setText(QCoreApplication.translate("Form", u"\uc800\uc7a5\uc704\uce58", None))
-        self.pushButton_save_path_select.setText(QCoreApplication.translate("Form", u"\uc800\uc7a5\uc704\uce58 \uc120\ud0dd", None))
-        self.pushButton.setText(QCoreApplication.translate("Form", u"\ucd94\ucd9c\ud558\uae30", None))
+    def retranslateUi(self, Sound_extract):
+        Sound_extract.setWindowTitle(QCoreApplication.translate("Sound_extract", u"Form", None))
+        self.label_save_path.setText(QCoreApplication.translate("Sound_extract", u"\uc800\uc7a5\uc704\uce58", None))
+        self.pushButton_save_path_select.setText(QCoreApplication.translate("Sound_extract", u"\uc800\uc7a5\uc704\uce58 \uc120\ud0dd", None))
+        self.pushButton.setText(QCoreApplication.translate("Sound_extract", u"\ucd94\ucd9c\ud558\uae30", None))
     # retranslateUi
 
