@@ -58,10 +58,10 @@ class Ui_Sound_extract(object):
 
         self.horizontalLayout_2.addItem(self.horizontalSpacer)
 
-        self.pushButton = QPushButton(Sound_extract)
-        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton_extract = QPushButton(Sound_extract)
+        self.pushButton_extract.setObjectName(u"pushButton_extract")
 
-        self.horizontalLayout_2.addWidget(self.pushButton)
+        self.horizontalLayout_2.addWidget(self.pushButton_extract)
 
         self.horizontalSpacer_2 = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
@@ -83,6 +83,6 @@ class Ui_Sound_extract(object):
         Sound_extract.setWindowTitle(QCoreApplication.translate("Sound_extract", u"Form", None))
         self.label_save_path.setText(QCoreApplication.translate("Sound_extract", u"\uc800\uc7a5\uc704\uce58", None))
         self.pushButton_save_path_select.setText(QCoreApplication.translate("Sound_extract", u"\uc800\uc7a5\uc704\uce58 \uc120\ud0dd", None))
-        self.pushButton.setText(QCoreApplication.translate("Sound_extract", u"\ucd94\ucd9c\ud558\uae30", None))
+        self.pushButton_extract.setText(QCoreApplication.translate("Sound_extract", u"\ucd94\ucd9c\ud558\uae30", None))
     # retranslateUi
 

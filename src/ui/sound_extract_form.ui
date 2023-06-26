@@ -93,7 +93,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="pushButton_extract">
          <property name="text">
           <string>추출하기</string>
          </property>
